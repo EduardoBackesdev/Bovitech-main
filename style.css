@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.bannerGado{
+    background-image: url(images/ASDASDADA.png);
+    height: 750px;
+    width: 100%;
+}
+
+.bannerGado h2{
+    color: white;
+    text-align: center;
+    padding: 60px 0px;
+    font-size: 46px;
+    width: 85%;
+    align-items: center;
+    line-height: 50px;
+    padding-left: 140px;
+    margin-bottom: -40px;
+}
+
+
+.bannerGado p{
+    color: white;
+    text-align: center;
+    padding-top: -200px;
+    font-size: 17px;
+    width: 85%;
+    margin: 0px auto;
+}
+
+.bannerGado video{
+    margin: 35px 320px;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid #ef4b3e;
+}
+
+
+.bannerGado button{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color:#ef4b3e ;
+    border: none;
+    border-radius: 10px;
+    margin-left: 500px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bannerGado button:hover{
+    background-color: #d8372c;
+}
+
+
+.formu{
+    height: 960px;
+    background-color: #e7e7e7a9;
+}
+
+.formu h2{
+    color:#ef4b3e;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    width: 55%;
+    margin-left: 300px;
+    line-height: 50px;
+}
+
+.formu p{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    width: 55%;
+    margin-left: 300px;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+    background-color:#ef4a3e1c;
+    border: 2px #ef4b3e solid;
+    margin-left: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.formulario label{
+    margin: 10px;
+    font-size:20px;
+    margin-left: 30px;
+}
+
+.formulario input{
+    width: 90%;
+    margin: 0px 25px;
+    height: 40px;
+    border-radius: 10px;
+    border: black 1px solid;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.formulario select{
+    width: 90%;
+    margin: 0px 25px;
+    height: 40px;
+    border-radius: 10px;
+    border: black 1px solid;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+
+.formu button{
+    width: 500px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    background-color:#ef4b3e;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 20px 15px;
+}
+
+.formu button:hover{
+    background-color: #d8372c;
+}
+
+.formulario p{
+    font-size: 11px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+
+.formu .formulando{
+    font-size: 11px;
+    margin-left:0px;
+    width: 40%;
+    text-align: left;
+} 
+
+.dados{
+    height: 720px;
+}
+
+.dados h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    width: 80%;
+    margin-left: 120px;
+}
+
+.banners{
+    margin-left: 200px;
+}
+
+.banners div h4{
+    font-size: 20px;
+}
+
+
+.banners div{
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+    height: 300px;
+    border: 1px rgba(211, 211, 211, 0.808) solid;
+    margin-right: 40px;
+    border-radius: 10px;
+    padding-top: 10px;
+    transition: 0.2s;
+}
+
+.banners div:hover{
+    border: 1px #ef4b3e solid;
+}
+
+.banners div p{
+    padding-top: 18px;
+    color: rgb(92, 92, 92);
+}
+
+
+.dados button{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color:#ef4b3e ;
+    border: none;
+    border-radius: 10px;
+    margin-left: 523px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 50px;
+}
+
+.dados button:hover{
+    background-color: #d8372c;
+}
+
+.dados .custo{
+    margin-left: 565px;
+    margin-top: 40px;
+    color: rgb(128, 128, 128);
+    
+
+}
+
+
+.shield{
+    width: 50px;
+    margin-left: 400px;
+}
+
+.escudo{
+    display: flex;
+    margin-top: 10px;
+}
+
+footer{
+    background-image: url(images/asdxx.png);
+    height: 200px;
+}
+.sites{
+    padding-top: 80px;
+}
+
+
+.sites p{
+    cursor: pointer;
+    margin-left: 130px;
+    margin-top:10px;
+    color: white;
+}
+
+.sites a{
+    outline: none;
+    text-decoration: none;
+}
+    
+
+
+
+    
+
+
+
+@media screen and (max-width: 600px){
+
+    .bannerGado h2{
+        width: 100%;
+        padding-left: 0px;
+        font-size: 36px;
+      
+    }
+
+
+    .bannerGado video{
+        margin: 50px 80px;
+        width: 75%;
+    }
+
+
+    .bannerGado button{
+        margin-top: 20x;
+        margin-left: 155px;
+    }
+
+    .formu h2{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .formu p{
+        width: 95%;
+        margin-left: 0px;
+    }
+
+    .formu{
+        height: 1100px;
+    }
+
+
+
+    .formulario{
+        margin-left: 0px;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .escudo .formulando{
+        margin-left: 0px;
+        width: 80%;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .shield{
+        margin: 0px;
+        margin-left:20px
+    }
+
+    .dados{
+        height: 1500px;
+    }
+
+    .dados h2{
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .banners{
+        margin-left: 0px;
+        margin-left: 100px;
+    
+    }
+
+    .banners div{
+        width: 80%;
+        padding: 10px;
+    }
+
+
+    .dados button{
+        margin-left: 150px;
+    }
+
+    .dados .custo{
+        margin-left: 190px;
+
+    }
+
+    footer{
+        display: none;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
