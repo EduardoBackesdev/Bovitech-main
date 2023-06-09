@@ -277,19 +277,21 @@ footer{
 
 
     .bannerGado video{
-        margin: 50px 80px;
+        margin: 50px 40px;
         width: 75%;
     }
 
 
     .bannerGado button{
         margin-top: 20x;
-        margin-left: 155px;
+        margin-left: 35px;
     }
 
     .formu h2{
         margin-left: 0px;
         width: 100%;
+        font-size: 35px;
+        text-align: center;
     }
 
     .formu p{
@@ -298,9 +300,17 @@ footer{
     }
 
     .formu{
-        height: 1100px;
+        height: 1200px;
+
     }
 
+    .formu button{
+        width: 90%;
+    }
+
+    .formulario p{
+        margin-left: 5px;
+    }
 
 
     .formulario{
@@ -309,6 +319,19 @@ footer{
         margin: 20px auto;
     }
 
+    .formulario label{
+        margin-left: 8px;
+    }
+
+    .formulario input{
+        margin-left:5px ;
+        width: 95%;
+    }
+
+    .formulario select{
+        margin-left: 5px;
+        width: 95%;
+    }
     .escudo .formulando{
         margin-left: 0px;
         width: 80%;
@@ -334,7 +357,7 @@ footer{
 
     .banners{
         margin-left: 0px;
-        margin-left: 100px;
+        margin-left: 60px;
     
     }
 
@@ -345,11 +368,11 @@ footer{
 
 
     .dados button{
-        margin-left: 150px;
+        margin-left: 40px;
     }
 
     .dados .custo{
-        margin-left: 190px;
+        margin-left: 80px;
 
     }
 
